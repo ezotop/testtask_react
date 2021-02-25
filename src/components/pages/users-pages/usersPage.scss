@@ -1,0 +1,10 @@
+.users {
+    height: 100%;
+    background-color: #f9f9f3;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+}

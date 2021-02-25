@@ -1,0 +1,44 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+    opacity: 0;
+    pointer-events: none;
+    &__content {
+        position: relative;
+        min-width: 393px;
+        min-height: 188px;
+        padding: 16px;
+        border-radius: 5px;
+        background-color: #fff;
+        opacity: 1;
+        transition: 0.5s all;
+        text-align: center;
+    }
+    &__message {
+        line-height: 56px;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    &__close {
+        position: absolute;
+        top: 24px;
+        right: 17px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 12px;
+        cursor: pointer;
+    }
+}
+
+.active {
+    opacity: 1;
+    pointer-events: all;
+}

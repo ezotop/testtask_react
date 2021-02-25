@@ -1,0 +1,39 @@
+.signup-btn {
+    margin-top: 40px;
+    height: 38px;
+    width: 210px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: $primary;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+    outline: none;
+    &_center {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    &_modal {
+        display: block;
+        width: 80px;
+        margin: 16px 0 0 auto;
+    }
+    &:hover {
+        background-color: $primary-dark;
+    }
+}
+
+.sign-link {
+    color: $primary;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5s all;
+    margin-top: 10px;
+    &:hover {
+        color: $primary-dark;
+    }
+}
